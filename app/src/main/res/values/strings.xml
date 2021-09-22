@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PROGM_16.FuncionesConRetornoDeDatos_SerranoCanoRuben</string>
+    <string name="calcular">Calcular</string>
+    <string name="introduce_el_lado_del_cuadrado">Introduce el lado del cuadrado</string>
+    <string name="calcula_la_superficie_del_cuadrado">Calcula la superficie del cuadrado</string>
+    <string name="devuelve_el_valor_mayor">Devuelve el valor mayor</string>
+    <string name="button">Button</string>
+    <string name="calcular2">Calcular2</string>
+</resources>
