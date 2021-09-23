@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
+import android.widget.Toast
 
 class Problema2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,17 +13,15 @@ class Problema2 : AppCompatActivity() {
         setContentView(R.layout.activity_problema2)
 
         val tvResultado = findViewById<TextView>(R.id.tvResultado21)
-        val btnCalcular = findViewById<Button>(R.id.btnCalcular21)
+        val btnCalcular21 = findViewById<Button>(R.id.btnCalcular21)
         val etNumber1 = findViewById<EditText>(R.id.etNumber21)
         val etNumber2 = findViewById<EditText>(R.id.etNumber22)
 
-        btnCalcular.setOnClickListener{
-            val number1 = etNumber1.toString()
-            val number2 = etNumber2.toString()
-            if (number1.isNotEmpty() && number2.isNotEmpty()){
-                val resultado = greaterValue(number1.toDouble(),number2.toDouble())
-                tvResultado.text = resultado.toString()
-            } else tvResultado.text = ""
+        btnCalcular21.setOnClickListener{
+            val number1 = etNumber1.text.toString().toDouble()
+            val number2 = etNumber2.text.toString().toDouble()
+            val resultado = greaterValue(number1,number2)
+            tvResultado.text = resultado.toString()
         }
     }
 

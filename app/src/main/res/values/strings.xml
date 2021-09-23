@@ -6,4 +6,6 @@
     <string name="devuelve_el_valor_mayor">Devuelve el valor mayor</string>
     <string name="button">Button</string>
     <string name="calcular2">Calcular2</string>
+    <string name="introduce_un_numero">Introduce un numero:</string>
+    <string name="introduce_otro_numero">Introduce otro numero:</string>
 </resources>
