@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PROGM_16FuncionesConRetornoDeDatos_SerranoCanoRuben">
         <activity
+            android:name=".ProblemasPropuestos1"
+            android:exported="true" />
+        <activity
             android:name=".Problema3"
             android:exported="true" />
         <activity
